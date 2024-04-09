@@ -1,0 +1,30 @@
+.home {
+    border: 1px solid red;
+  min-height: 100vh;
+  .title {
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 4rem;
+    .blue {
+      color: #4888f4;
+    }
+    .red {
+      color: #eb493d;
+    }
+    .yellow {
+      color: #fabe1c;
+    }
+    .green{
+        color: #3BAB58;
+    }
+  }
+  .search{
+    border-radius: 24px;
+    outline: none;
+    border: 1px solid black;
+  }
+  .search-icon{
+    position: absolute;
+    left: 22%;
+  }
+}

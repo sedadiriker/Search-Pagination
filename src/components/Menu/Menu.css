@@ -1,0 +1,9 @@
+
+.navbar{
+  position: fixed;
+  width: 100%;
+}
+
+.no-list-style {
+    list-style-type: none;
+  }
