@@ -13,3 +13,21 @@
         }
     }
 }
+
+@media screen and (max-width:500px) {
+    .results{
+        padding: 7rem 1rem 2rem 1rem;
+        min-height: 100vh;
+        .result{
+            width: 70%;
+            margin-left: 5rem;
+            h3{
+                color: #1372f7;
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+  }

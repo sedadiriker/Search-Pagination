@@ -1,5 +1,4 @@
 .home {
-    border: 1px solid red;
   min-height: 100vh;
   .title {
     text-align: center;
@@ -26,5 +25,16 @@
   .search-icon{
     position: absolute;
     left: 22%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .home{
+    .title{
+      font-size: 2rem;
+    }
+    .search-icon{
+      left: 15%;
+    }
   }
 }

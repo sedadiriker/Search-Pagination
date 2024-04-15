@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./Home.css";
 import { IoSearchOutline } from "react-icons/io5";
 import axios from "axios";
@@ -69,6 +69,7 @@ const Home = () => {
         <IoSearchOutline className="search-icon" />
         <button type="submit" onClick={getSearchResult} className=" btn btn-success py-2 px-4">Search</button>
       </form>
+      <p className="text-center ms-5 opacity-50">Example Search : optio</p>
     </div>
   );
 };

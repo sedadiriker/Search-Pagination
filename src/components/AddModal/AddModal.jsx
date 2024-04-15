@@ -2,10 +2,10 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 const AddModal = ({selectedPost,show,onHide}) => {
+    console.log(show)
   return (
-    <div
-    className={`modal ${show} ${onHide}`}
-    style={{ display: 'block', position: 'initial' }}
+    <Modal
+    show={show} onHide={onHide} centered
   >
     <Modal.Dialog>
       <Modal.Header closeButton>
@@ -18,10 +18,9 @@ const AddModal = ({selectedPost,show,onHide}) => {
 
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>Close</Button>
-        <Button variant="primary">Save changes</Button>
       </Modal.Footer>
     </Modal.Dialog>
-  </div>
+  </Modal>
   )
 }
 
