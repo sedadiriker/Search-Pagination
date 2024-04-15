@@ -1,0 +1,15 @@
+.results{
+    padding: 10rem 2rem 3rem 2rem;
+    min-height: 100vh;
+    .result{
+        width: 50%;
+        margin-left: 5rem;
+        h3{
+            color: #1372f7;
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}

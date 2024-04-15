@@ -7,3 +7,18 @@
 .no-list-style {
     list-style-type: none;
   }
+  .title {
+    font-size: 2rem;
+    .blue {
+      color: #4888f4;
+    }
+    .red {
+      color: #eb493d;
+    }
+    .yellow {
+      color: #fabe1c;
+    }
+    .green{
+        color: #3BAB58;
+    }
+  }
